@@ -2,7 +2,7 @@
 
 # Hi, I'm Ahmed Mostafa 👋
 
-### Senior Flutter Developer @ Iden2 · Founder of [Mudawy](https://mudawy.com) · Mobile Security · Clean Architecture
+### Flutter Developer & AI Engineer · Mobile Engineer @ iDen2 · Founder of [Mudawy](https://mudawy.com) · Mobile Security
 
 <p>
   <a href="https://ahmedmostafa-dev.vercel.app"><img src="https://img.shields.io/badge/Portfolio-AhmedOS-c6f432?style=for-the-badge&logo=vercel&logoColor=black&labelColor=0b1220" alt="Portfolio: AhmedOS"></a>
@@ -68,7 +68,7 @@ I build **secure, high-performance cross-platform apps** for iOS and Android wit
 
 ## 💼 Experience
 
-**Senior Flutter Developer** · [Iden2](https://iden2.com) (Remote) · _Jun 2025 – Present_
+**Mobile Engineer** · [iDen2](https://iden2.com) (Remote) · _Jun 2025 – Present_
 > Identity Wallet, a secure platform for managing digital identity
 - Raised unit test coverage from **0% to 80%+** across core modules, which cut regression bugs by **60%+**.
 - Built an **encrypted offline-first credential store** (FlutterSecureStorage + Android Keystore) that eliminated all redundant API calls.
