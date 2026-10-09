@@ -17,7 +17,7 @@
 
 ## 🧑‍💻 About Me
 
-I build **secure, high-performance cross-platform apps** for iOS and Android with Flutter. I have **4+ years** in the field and **20+ production apps** across fintech, digital identity, real estate, logistics, and e-commerce.
+I build **secure, high-performance cross-platform apps** for iOS and Android with Flutter. I have **4+ years** in the field and **15+ production apps** across fintech, digital identity, real estate, logistics, and e-commerce.
 
 - 🔐 Right now I'm building an **identity wallet** at **[Iden2](https://iden2.com)**. The work covers encrypted offline-first credential storage, Android hardening, and Remote Config-driven UI.
 - 🏗️ I care about **Clean Architecture**, **testability** (I took a codebase from 0% to 80%+ coverage), and **fully automated releases** with Fastlane and GitHub Actions.
