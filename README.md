@@ -2,7 +2,7 @@
 
 # Hi, I'm Ahmed Mostafa 👋
 
-### Senior Flutter Developer · Mobile Security · Clean Architecture · Fintech & Digital Identity
+### Senior Flutter Developer @ Iden2 · Founder of [Mudawy](https://mudawy.com) · Mobile Security · Clean Architecture
 
 <p>
   <a href="https://www.linkedin.com/in/ahmed-mostafa-cc/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -20,16 +20,36 @@
 I build **secure, high-performance cross-platform apps** for iOS and Android with Flutter. I have **4+ years** in the field and **15+ production apps** across fintech, digital identity, real estate, logistics, and e-commerce.
 
 - 🔐 Right now I'm building an **identity wallet** at **[Iden2](https://iden2.com)**. The work covers encrypted offline-first credential storage, Android hardening, and Remote Config-driven UI.
+- 🩺 On the side, I founded and build **[Mudawy (مُداوي)](https://mudawy.com)**, a clinic management product for doctors in Egypt. It has an offline-first desktop app and a multi-tenant SaaS web version, and I own it end to end.
 - 🏗️ I care about **Clean Architecture**, **testability** (I took a codebase from 0% to 80%+ coverage), and **fully automated releases** with Fastlane and GitHub Actions.
 - 👥 I've led a team of 4 developers, set coding standards, and mentored junior engineers.
 - 🏆 My graduation project placed in the **Top 10 globally** at the **Google Solution Challenge**.
 
 ---
 
+## 🩺 Building: Mudawy (مُداوي)
+
+<a href="https://mudawy.com"><img src="https://img.shields.io/badge/mudawy.com-Live-0ea5e9?style=for-the-badge" alt="mudawy.com"></a>
+<a href="https://app.mudawy.com"><img src="https://img.shields.io/badge/Web_App-app.mudawy.com-14b8a6?style=for-the-badge" alt="app.mudawy.com"></a>
+
+**Clinic management for solo doctors in Egypt.** It's Arabic-first (RTL) with full English support. I designed and built every piece of it:
+
+| Product | What it is | Stack |
+| --- | --- | --- |
+| 🖥️ **Desktop app** | Offline-first doctor + reception stations on one codebase. Patient data stays on an encrypted local database. Reception syncs over the clinic LAN, with pairing codes and an offline queue that syncs later. Windows installers are built in CI. | Flutter Desktop, Drift/SQLite, BLoC, go_router |
+| ☁️ **Web SaaS** | Multi-tenant monthly-subscription version with tenant isolation through PostgreSQL row-level security. Covers the patient queue, visits, prescriptions, appointments, billing, and Excel imports. | NestJS + Fastify, Drizzle, PostgreSQL, React 19, TanStack, Tailwind, Turborepo |
+| 🛡️ **Admin console** | One staff console for managing customers of both products: accounts, pricing, requests, leads, audit log, background jobs. | React + Vite, OpenAPI → orval client |
+| 🌐 **Landing site** | Marketing site with an interactive modular-pricing configurator and a leads flow. | Next.js, shadcn/ui, next-intl, Supabase, Vercel |
+
+**Highlights:** a modular pricing model (core module plus add-ons, priced by term), contracts shared from zod through OpenAPI to a typed client, pure domain rules with 100% test coverage, and golden UI tests for light and dark themes.
+
+---
+
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,androidstudio,firebase,mysql,githubactions,git,github,figma,vscode&perline=11" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,androidstudio,firebase,githubactions&perline=6" alt="Mobile stack" /><br/>
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nestjs,postgres,sqlite,mysql,supabase,tailwind,docker,vercel&perline=11" alt="Web stack" />
 </p>
 
 | Area | Tools |
@@ -39,7 +59,8 @@ I build **secure, high-performance cross-platform apps** for iOS and Android wit
 | **Security** | FlutterSecureStorage, Android Keystore, Encrypted Local Storage, Secure Credential Management |
 | **Testing** | Unit & Widget Testing, `flutter_test`, lcov, 80%+ coverage |
 | **CI/CD** | GitHub Actions, Fastlane, Android & iOS release pipelines, PR gating |
-| **Backend & Data** | REST APIs, Firebase, Remote Config, MySQL, Socket.io |
+| **Web & Backend** | TypeScript, React, Next.js, NestJS, Drizzle ORM, PostgreSQL (RLS), zod/OpenAPI |
+| **Data & Cloud** | REST APIs, Firebase, Remote Config, Supabase, SQLite/Drift, MySQL, Socket.io, Docker, Vercel |
 | **Workflow** | Git, Agile/Scrum, Claude Code, Cursor |
 
 ---
@@ -67,6 +88,7 @@ I build **secure, high-performance cross-platform apps** for iOS and Android wit
 
 | Project | Domain | Highlights |
 | --- | --- | --- |
+| 🩺 **[Mudawy](https://mudawy.com)** | HealthTech SaaS | Founder. Offline-first Flutter desktop app, multi-tenant NestJS/React web app, admin console, landing site |
 | 🪪 **Iden2 Wallet** | Digital Identity | Encrypted offline-first storage, Keystore, dynamic Remote Config UI |
 | 📈 **K-Wealth** | Fintech | Real-time market feeds, portfolio tracking, live trading |
 | 🤖 **Nuwas** | AI / Industrial | ML-powered machine fault diagnosis with guided repair flows |
