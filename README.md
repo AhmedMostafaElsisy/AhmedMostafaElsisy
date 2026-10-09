@@ -5,6 +5,7 @@
 ### Senior Flutter Developer @ Iden2 · Founder of [Mudawy](https://mudawy.com) · Mobile Security · Clean Architecture
 
 <p>
+  <a href="https://ahmedmostafa-dev.vercel.app"><img src="https://img.shields.io/badge/Portfolio-AhmedOS-c6f432?style=for-the-badge&logo=vercel&logoColor=black&labelColor=0b1220" alt="Portfolio: AhmedOS"></a>
   <a href="https://www.linkedin.com/in/ahmed-mostafa-cc/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:ahmedmostafacc@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <img src="https://img.shields.io/badge/Cairo,_Egypt-1f2937?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Cairo, Egypt">
@@ -119,6 +120,6 @@ I build **secure, high-performance cross-platform apps** for iOS and Android wit
 
 ### 📫 Let's build something together
 
-[LinkedIn](https://www.linkedin.com/in/ahmed-mostafa-cc/) · [ahmedmostafacc@gmail.com](mailto:ahmedmostafacc@gmail.com)
+[Portfolio](https://ahmedmostafa-dev.vercel.app) · [LinkedIn](https://www.linkedin.com/in/ahmed-mostafa-cc/) · [ahmedmostafacc@gmail.com](mailto:ahmedmostafacc@gmail.com)
 
 </div>
